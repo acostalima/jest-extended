@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.toHaveBeenCalledTimely fails when mock has not been called 1`] = `
+"<dim>expect(</><red>received</><dim>).toHaveBeenCalledTimely(</><green>expected</><dim>)</>
+
+Expected mock to have been called in specified time intervals:
+  <green>[2000]</>
+Received time intervals:
+  <green>[]</>"
+`;
+
+exports[`.toHaveBeenCalledTimely fails when mock has not been called the mininum number of times 1`] = `
+"<dim>expect(</><red>received</><dim>).toHaveBeenCalledTimely(</><green>expected</><dim>)</>
+
+Expected mock to have been called in specified time intervals:
+  <green>[2000, 4000, 16000]</>
+Received time intervals:
+  <green>[0, 2000, 4000]</>"
+`;
