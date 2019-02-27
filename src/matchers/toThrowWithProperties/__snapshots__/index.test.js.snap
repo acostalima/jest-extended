@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.not.toThrowWithProperties fails when error contains properties 1`] = `
+"<dim>expect(</><red>function</><dim>).not.toThrowWithProperties(</><green>properties</><dim>)</>
+
+Expected not to throw with:
+  <green>{\\"bar\\": \\"bar\\", \\"foo\\": \\"foo\\"}</>
+Thrown with:
+  <red>{\\"bar\\": \\"bar\\", \\"foo\\": \\"foo\\"}</>
+"
+`;
+
+exports[`.toThrowWithProperties fails when error does not contain properties 1`] = `
+"<dim>expect(</><red>function</><dim>).toThrowWithProperties(</><green>properties</><dim>)</>
+
+Expected to throw with:
+  <green>{\\"bar\\": \\"bar\\", \\"foo\\": \\"foo\\"}</>
+Thrown with:
+  <red>{}</>
+"
+`;
